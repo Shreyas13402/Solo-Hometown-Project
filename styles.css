@@ -1,0 +1,92 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE:
+DARK BLUE: #1D3557
+
+*/
+
+body {
+
+background:linear-gradient(skyblue,skyblue,blue,darkblue);
+color:whitesmoke;
+font-family: 'Happy Monkey', cursive;
+text-align:center; 
+}
+
+
+.tourist-spots{
+display:flex;
+justify-content:space-between;
+padding:5px;
+
+   
+}
+
+h1,h2,h3,h4,p{
+    text-shadow:1px 1px blue;
+    text-align:center;
+}
+
+.info{
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+}
+
+.guide-section{
+display:flex;
+border:3px solid black;
+border-radius:25px;
+width:100%;
+justify-content:space-around;
+align-items:center;
+padding:50px 0px;
+}
+
+.guide-image{
+height:100%;
+width:100%;
+}
+
+p{
+    padding:25px;
+}
+
+.guide-text{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    padding:5px;
+    
+}
+.image-container{
+display:flex;
+justify-content:center;
+align-items:center;
+border:1px solid red;
+border-radius:50%;
+height:200px;
+width:200px;
+margin:0px 20px; 
+overflow:hidden;   
+}
+
+.card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    padding:5px;
+}
+.card img{
+    border-radius:20px;
+    height:100%;
+    width:100%;
+}
+.card-image-container{
+    height:150px;
+    width:150px;
+}
